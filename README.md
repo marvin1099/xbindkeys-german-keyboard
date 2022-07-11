@@ -1,7 +1,7 @@
 # xbindkeys-german-keyboard
 This is a simple keyremapcofigfile for linux that uses xdotool and xbindkeys
 
-#How to use
+# How to use
 Install xdotool and xbindkeys.     
 on Debian and distros based of it you use: sudo apt install xdotool xbindkeys         
 on Other distros you use your package downloader.         
