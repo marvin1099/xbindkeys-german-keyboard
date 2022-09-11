@@ -1,11 +1,37 @@
-# xbindkeys-german-keyboard
-This is a simple keyremapcofigfile for linux that uses xdotool and xbindkeys
+# Xbindkeys-German-Config
 
-# How to use
-Install xdotool and xbindkeys.     
-on Debian and distros based of it you use: sudo apt install xdotool xbindkeys         
-on Other distros you use your package downloader.         
-download the .xbindkeysrc file and put it in you user diretorry.        
-run "xbindkeys -n &"  to run without damon (worked better for me).       
-alternatively run "xbindkeys"  to run with damon.       
-lastly add the command you like to use to your autostart.     
+This is a "third layer" config for linux systems without being a actual third layer.       
+It will translate ctrl + alt + (keys for German third layer) to their corresponding keys.       
+For example "ctrl + alt + q" to "@"      
+
+# Compatibly
+This Config should work on systems based on: Arch, Debian, Red Hat      
+This config works on all of them because it uses Software that is available on all of these systems.
+
+# Installation
+<table>
+<tr>
+<td> Run in shell </td>
+<td> On Arch based systems </td> 
+<td> On Debian based systems </td> 
+<td> On Red Hat based systems </td> 
+</tr>
+<tr> 
+<td> 1. </td>
+<td> sudo pacman -S curl xbindkeys xdotool </td> 
+<td> sudo apt install curl xbindkeys xdotool </td> 
+<td> sudo yum install curl xbindkeys xdotool </td> 
+</tr>
+<tr> 
+<td> 2. </td> 
+<td> curl -o ~\.xbindkeysrc 'https://gitea.com/Marvin1099/Xbindkeys-German-Config/raw/branch/main/.xbindkeysrc' </td> 
+<td> Same as Arch </td> 
+<td> Same as Arch </td> 
+</tr>
+<tr>
+<td> OR 2. </td> 
+<td> manualy download the ".xbindconfig" file from 'https://gitea.com/Marvin1099/Xbindkeys-German-Config/raw/branch/main/.xbindkeysrc' and put it in to your home folder </td>
+<td> Same as Arch </td> 
+<td> Same as Arch </td>  
+</tr> 
+</table>
