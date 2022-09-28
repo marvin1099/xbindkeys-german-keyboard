@@ -37,5 +37,7 @@ This config works on all of them because it uses Software that is available on a
 <tr>
 <td> 3. </td>
 <td> run in terminal: xbindkeys </td> 
+<td> Same as Arch </td> 
+<td> Same as Arch </td> 
 </tr>
 </table>
