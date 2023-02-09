@@ -24,13 +24,13 @@ This config works on all of them because it uses Software that is available on a
 </tr>
 <tr> 
 <td> 2. </td> 
-<td> curl -o ~\.xbindkeysrc 'https://raw.githubusercontent.com/marvin1099/xbindkeys-german-keyboard/main/.xbindkeysrc' </td> 
+<td> curl -o ~\.xbindkeysrc 'https://codeberg.org/marvin1099/xbindkeys-german-keyboard/raw/branch/main/.xbindkeysrc' </td> 
 <td> Same as Arch </td> 
 <td> Same as Arch </td> 
 </tr>
 <tr>
 <td> OR 2. </td> 
-<td> manualy download the ".xbindconfig" file from 'https://raw.githubusercontent.com/marvin1099/xbindkeys-german-keyboard/main/.xbindkeysrc' and put it in to your home folder </td>
+<td> manualy download the ".xbindconfig" file from 'https://codeberg.org/marvin1099/xbindkeys-german-keyboard/raw/branch/main/.xbindkeysrc' and put it in to your home folder </td>
 <td> Same as Arch </td> 
 <td> Same as Arch </td>  
 </tr> 
