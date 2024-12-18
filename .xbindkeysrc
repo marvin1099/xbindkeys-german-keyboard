@@ -15,8 +15,6 @@
 #   Control, Shift, Mod1 (Alt), Mod2 (NumLock), 
 #   Mod3 (CapsLock), Mod4, Mod5 (Scroll).
 #
-#
-#
 # Another way to specifie a key is to use 'xev' and set the 
 # keycode with c:nnn or the modifier with m:nnn where nnn is 
 # the keycode or the state returned by xev 
@@ -24,57 +22,75 @@
 # "command" 
 # m:xxx + c:xxx 
 #
-# Shift+... 
-# sleep 0.1
-# xdotool key ISO_Level3_Shift+q #AltGr+q #Old Version (Does't work)
-# Unicode Characters from https://unicode-table.com
+#
+# Used to make this config was the command 'xbindkeys -k'
+# After that xvkbd works like this: http://xahlee.info/linux/linux_xvkbd_tutorial.html
+# Then characters are on: http://xahlee.info/linux/linux_show_keycode_keysym.html
+# And used was the command 'xev' 
+# With these tools all of this can be recreated.
+#
+# xdotools where replaced by xvkbd a recent update becaluse it fixes the keys sometimes stuck issue.
+# This post gave me the idea to try it with xvkbd instead:
+# https://askubuntu.com/questions/417748/ctrl-alt-key-doesnt-work-on-non-us-f-x-german-danish-keyboard-layout  
 
 # "@" Symbol with Control+Alt+q
-"xdotool key --clearmodifiers U0040"
-    Release + Control+Alt+q
+"xvkbd -xsendevent -text '@'"
+    m:0xc + c:24
+    Control+Alt + q
 
 # "€" Symbol with Control+Alt+e
-"xdotool key --clearmodifiers U20AC"
-    Release + Control+Alt+e
+"xvkbd -xsendevent -text '\[EuroSign]'"
+    m:0xc + c:26
+    Control+Alt + e
 
 # "µ" Symbol with Control+Alt+m
-"xdotool key --clearmodifiers U00B5"
-    Release + Control+Alt+m
+"xvkbd -xsendevent -text '\[mu]'"
+    m:0xc + c:58
+    Control+Alt + m
 
 # "{" Symbol with Control+Alt+7
-"xdotool key --clearmodifiers U007B"
-    Release + Control+Alt+7
+"xvkbd -xsendevent -text '{'"
+    m:0xc + c:16
+    Control+Alt + 7
 
 # "[" Symbol with Control+Alt+8
-"xdotool key --clearmodifiers U005B"
-    Release + Control+Alt+8
+"xvkbd -xsendevent -text '['"
+    m:0xc + c:17
+    Control+Alt + 8
 
 # "]" Symbol with Control+Alt+9
-"xdotool key --clearmodifiers U005D"
-    Release + Control+Alt+9
+"xvkbd -xsendevent -text ']'"
+    m:0xc + c:18
+    Control+Alt + 9
 
 # "}" Symbol with Control+Alt+0
-"xdotool key --clearmodifiers U007D"
-    Release + Control+Alt+0
+"xvkbd -xsendevent -text '}'"
+    m:0xc + c:19
+    Control+Alt + 0
 
 # "²" Symbol with Control+Alt+2
-"xdotool key --clearmodifiers U00B2"
-    Release + Control+Alt+2
+"xvkbd -xsendevent -text '\[twosuperior]'"
+    m:0xc + c:10
+    Control+Alt + 2
 
 # "³" Symbol with Control+Alt+3
-"xdotool key --clearmodifiers U00B3"
-    Release + Control+Alt+3
+"xvkbd -xsendevent -text '\[threesuperior]'"
+    m:0xc + c:11
+    Control+Alt + 3
 
 # "~" Symbol with Control+Alt++
-"xdotool key --clearmodifiers U007E"
-    Release + Control+Alt+plus
+"xvkbd -xsendevent -text '\[asciitilde]'"
+    m:0xc + c:35
+    Control+Alt + plus
 
 # "\" Symbol with Control+Alt+ß
-"xdotool key --clearmodifiers U005C"
-    Release + Control+Alt+ssharp
+"xvkbd -xsendevent -text '\[backslash]'"
+    m:0xc + c:20
+    Control+Alt + ssharp
 
-# "³" Symbol with Control+Alt+<
-"xdotool key --clearmodifiers U007C"
-    Release + Control+Alt+less
+# "|" Symbol with Control+Alt+<
+"xvkbd -xsendevent -text '\[bar]'"
+    m:0xc + c:94
+    Control+Alt + less
 
 # End of xbindkeys configuration
