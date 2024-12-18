@@ -102,6 +102,8 @@ Diese Konfiguration emuliert die dritte Ebene der deutschen Tastaturbelegung von
 
 Standardmäßig verwendet Linux `AltGr` (Rechte Alt-Taste) für die Eingabe der dritten Ebene. Diese Konfiguration ermöglicht die Nutzung von `Strg + Alt` als Alternative, um die Bedienung zu erleichtern oder mit Workflows, die dem Windows-Layout entsprechen, kompatibel zu sein.
 
+[English instructions](#xbindkeys-german-config)
+
 ---
 
 ## Kompatibilität  
