@@ -22,7 +22,7 @@ The setup relies on `xbindkeys` and `xvkbd`, which are widely available.
 
 ## Installation  
 
-Follow these steps to set up `xbindkeys` and `xvkbd` and download the configuration file.  
+Follow these steps to set up `xbindkeys` and `xvkbd` and download the configuration file from the terminal.  
 
 ### **Step 1: Install Required Tools**  
 
@@ -64,10 +64,12 @@ sudo zypper install xbindkeys xvkbd
 ### **Step 2: Download the Configuration File**  
 
 #### **Automatic Download**  
-To automatically download the configuration file:  
+To automatically download the configuration file run in the terminal:  
 ```bash
 curl -o ~/.xbindkeysrc 'https://codeberg.org/marvin1099/xbindkeys-german-keyboard/raw/branch/main/.xbindkeysrc'
 ```  
+
+Alternatively use the manual download
 
 #### **Manual Download**  
 1. Visit the repository:  
@@ -79,7 +81,7 @@ curl -o ~/.xbindkeysrc 'https://codeberg.org/marvin1099/xbindkeys-german-keyboar
 
 ### **Step 3: Start and Test**  
 
-1. Start `xbindkeys` to activate the configuration:  
+1. Start `xbindkeys` in the terminal to activate the configuration:  
    ```bash
    xbindkeys
    ```  
@@ -115,6 +117,8 @@ Die Einrichtung basiert auf `xbindkeys` und `xvkbd`, die universell verfügbar s
 ---
 
 ## Installation  
+
+Folge diesen Schritten, um `xbindkeys` und `xvkbd` einzurichten und die Konfigurationsdatei vom Terminal herunterzuladen. 
 
 ### **Schritt 1: Erforderliche Werkzeuge installieren**  
 
@@ -157,12 +161,15 @@ sudo zypper install xbindkeys xvkbd
 ### **Schritt 2: Konfigurationsdatei herunterladen**  
 
 #### **Automatischer Download**  
+Um die Konfigurationsdatei automatisch herunterzuladen, starte im Terminal: 
 ```bash
 curl -o ~/.xbindkeysrc 'https://codeberg.org/marvin1099/xbindkeys-german-keyboard/raw/branch/main/.xbindkeysrc'
 ```  
 
+Alternativ verwende den manuellen download
+
 #### **Manueller Download**  
-1. Besuchen Sie das Repository:  
+1. Besuchen Sie die Repository:  
    [Xbindkeys German Keyboard Configuration](https://codeberg.org/marvin1099/xbindkeys-german-keyboard).  
 2. Laden Sie die Datei `.xbindkeysrc` herunter.  
 3. Speichern Sie sie im Home-Verzeichnis als `~/.xbindkeysrc`.  
@@ -171,7 +178,7 @@ curl -o ~/.xbindkeysrc 'https://codeberg.org/marvin1099/xbindkeys-german-keyboar
 
 ### **Schritt 3: Starten und Testen**  
 
-1. Starten Sie `xbindkeys`, um die Konfiguration zu aktivieren:  
+1. Starten Sie `xbindkeys`, vom Terminal um die Konfiguration zu aktivieren:  
    ```bash
    xbindkeys
    ```  
