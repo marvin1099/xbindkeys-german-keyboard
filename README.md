@@ -6,6 +6,9 @@ By default, Linux uses `AltGr` (Right Alt) for third-layer input. This configura
 
 [Deutsche Anleitung (German Instructions)](#deutsche-anleitung-german-instructions)
 
+**⚠️ Warning:** This configuration setup is **only compatible with X11 compositors**.  
+For Wayland support and a more modern approach, please use my newer [xremap-based config (xremap-german-keyboard)](https://codeberg.org/marvin1099/xremap-german-keyboard).
+
 ---
 
 ## Compatibility  
@@ -103,6 +106,9 @@ Diese Konfiguration emuliert die dritte Ebene der deutschen Tastaturbelegung von
 Standardmäßig verwendet Linux `AltGr` (Rechte Alt-Taste) für die Eingabe der dritten Ebene. Diese Konfiguration ermöglicht die Nutzung von `Strg + Alt` als Alternative, um die Bedienung zu erleichtern oder mit Workflows, die dem Windows-Layout entsprechen, kompatibel zu sein.
 
 [English instructions](#xbindkeys-german-config)
+
+**⚠️ Achtung:** Dieses Konfigurations Setup ist **nur mit X11 Compositors kompatibel**.  
+Für Wayland-Unterstützung und eine modernere Lösung verwende bitte meine neuere [xremap-basierte Konfiguration (xremap-german-keyboard)](https://codeberg.org/marvin1099/xremap-german-keyboard)
 
 ---
 
